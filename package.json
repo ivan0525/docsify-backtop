@@ -1,0 +1,25 @@
+{
+  "name": "docsify-back-to-top",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/docsify-back-to-top.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivan0525/docsify-backtop.git"
+  },
+  "keywords": [],
+  "author": "ivan0525",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "postcss": "^8.3.6",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
